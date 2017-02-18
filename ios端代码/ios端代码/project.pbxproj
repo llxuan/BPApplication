@@ -1,0 +1,1497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		5E618435888B9D49F8540165 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Qmake";
+			shellPath = "/bin/sh";
+			shellScript = "make -C '/Users/apple/Desktop/digit ios/build-digits_ios-iphoneos_clang_Qt_5_6_2_for_iOS-Debug' -f qt_makeqmake.mak";
+			showEnvVarsInLog = "0";
+		};
+		715D8E99839D7A0B3B64D88D = {
+			isa = PBXFileReference;
+			path = "/Users/apple/Desktop/digit ios/digits_ios/main.cpp";
+			name = "main.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1F76AE99ABED67668BE9476A = {
+			fileRef = "715D8E99839D7A0B3B64D88D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		277580B27E32CE9D69EF0A89 = {
+			isa = PBXFileReference;
+			path = "/Users/apple/Desktop/digit ios/digits_ios/mainwindow.cpp";
+			name = "mainwindow.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		3A4A4C3E868749A0D352AA6E = {
+			fileRef = "277580B27E32CE9D69EF0A89";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		AF76F6A7B23ECAD0C0C19E04 = {
+			isa = PBXFileReference;
+			path = "/Users/apple/Desktop/digit ios/digits_ios/paintarea.cpp";
+			name = "paintarea.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B39DB58614E12195C226FC29 = {
+			fileRef = "AF76F6A7B23ECAD0C0C19E04";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5C24816A755DFEC85653EA95 = {
+			isa = PBXFileReference;
+			path = "/Users/apple/Desktop/digit ios/digits_ios/OC/oc.mm";
+			name = "oc.mm";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.objcpp";
+		};
+		208F175BFB2E3F292139BA5A = {
+			fileRef = "5C24816A755DFEC85653EA95";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3EFD5423DE93C1B05AFCA7BD = {
+			isa = PBXFileReference;
+			path = "/Users/apple/Desktop/digit ios/build-digits_ios-iphoneos_clang_Qt_5_6_2_for_iOS-Debug/digits_ios_plugin_import.cpp";
+			name = "digits_ios_plugin_import.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		EE613AF185CD414FF6523164 = {
+			fileRef = "3EFD5423DE93C1B05AFCA7BD";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F6A72AA730CCE0F4CD3CC065 = {
+			isa = PBXFileReference;
+			path = "/Users/apple/Desktop/digit ios/build-digits_ios-iphoneos_clang_Qt_5_6_2_for_iOS-Debug/qrc_resources.cpp";
+			name = "qrc_resources.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0D811313FEBC14EEA50E08C6 = {
+			fileRef = "F6A72AA730CCE0F4CD3CC065";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E0DD516025E08F26E024A535 = {
+			isa = PBXFileReference;
+			path = "/Users/apple/Desktop/digit ios/build-digits_ios-iphoneos_clang_Qt_5_6_2_for_iOS-Debug/moc_mainwindow.cpp";
+			name = "moc_mainwindow.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		31CBAB39A171A3A80D6E633A = {
+			fileRef = "E0DD516025E08F26E024A535";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		ADAB8B29AA5A39854CD3D198 = {
+			isa = PBXFileReference;
+			path = "/Users/apple/Desktop/digit ios/build-digits_ios-iphoneos_clang_Qt_5_6_2_for_iOS-Debug/moc_oc.cpp";
+			name = "moc_oc.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		743EEB5DC439674121B4267F = {
+			fileRef = "ADAB8B29AA5A39854CD3D198";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A0EE1273BD380A345E44EA60 = {
+			isa = PBXFileReference;
+			path = "/Users/apple/Desktop/digit ios/build-digits_ios-iphoneos_clang_Qt_5_6_2_for_iOS-Debug/ui_mainwindow.h";
+			name = "ui_mainwindow.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		4413155D95F05F1409668BF6 = {
+			isa = PBXFileReference;
+			path = "/Users/apple/Desktop/digit ios/digits_ios/mainwindow.h";
+			name = "mainwindow.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		BDDE57D2288A649F1AD992D3 = {
+			isa = PBXFileReference;
+			path = "/Users/apple/Desktop/digit ios/digits_ios/paintarea.h";
+			name = "paintarea.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F59D902CF0D020F26CA7A87F = {
+			isa = PBXFileReference;
+			path = "/Users/apple/Desktop/digit ios/digits_ios/OC/oc.h";
+			name = "oc.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		2C3297957D24C637213586E3 = {
+			isa = PBXFileReference;
+			path = "/Users/apple/Desktop/digit ios/build-digits_ios-iphoneos_clang_Qt_5_6_2_for_iOS-Debug/digits_ios.pro";
+			name = "digits_ios.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		F21A5528FF8FF9BE97F72C23 = {
+			isa = PBXFileReference;
+			path = "/Users/apple/Desktop/digit ios/build-digits_ios-iphoneos_clang_Qt_5_6_2_for_iOS-Debug/.qmake.stash";
+			name = ".qmake.stash";
+			sourceTree = "<absolute>";
+		};
+		3B2A8C7BE35B94F6244A4EDC = {
+			isa = PBXFileReference;
+			path = "/Users/apple/Desktop/digit ios/digits_ios/digits_ios.pro";
+			name = "digits_ios.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		C795EE587F588CB6DB7CE95E = {
+			isa = PBXFileReference;
+			path = "/Users/apple/Desktop/digit ios/digits_ios/resources.qrc";
+			name = "resources.qrc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		C795EE587F588CB6DB7CE95E = {
+			isa = PBXFileReference;
+			path = "/Users/apple/Desktop/digit ios/digits_ios/resources.qrc";
+			name = "resources.qrc";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		2A8DF45088DFDC5E9D4A2CDC = {
+			fileRef = "C795EE587F588CB6DB7CE95E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		047A67E9595038F3012ED23E = {
+			isa = PBXFileReference;
+			path = "/Users/apple/Desktop/digit ios/digits_ios/mainwindow.ui";
+			name = "mainwindow.ui";
+			sourceTree = "<absolute>";
+		};
+		B662E9988FFF9F37A03F76B2 = {
+			fileRef = "047A67E9595038F3012ED23E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		25B08E2869634E9BCBA333A2 = {
+			isa = PBXGroup;
+			children = (
+				"3EFD5423DE93C1B05AFCA7BD",
+				"F6A72AA730CCE0F4CD3CC065",
+				"E0DD516025E08F26E024A535",
+				"ADAB8B29AA5A39854CD3D198",
+				"A0EE1273BD380A345E44EA60");
+			name = "Generated Sources";
+			sourceTree = "<group>";
+		};
+		01E80944AD5D9FF4B2A3ED1D = {
+			isa = PBXGroup;
+			children = (
+				"5C24816A755DFEC85653EA95",
+				"F59D902CF0D020F26CA7A87F");
+			name = "OC";
+			sourceTree = "<group>";
+		};
+		87DF60DE337FB58864343E39 = {
+			isa = PBXGroup;
+			children = (
+				"C795EE587F588CB6DB7CE95E");
+			name = "Resources";
+			sourceTree = "<group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 = {
+			isa = PBXGroup;
+			children = (
+				"715D8E99839D7A0B3B64D88D",
+				"277580B27E32CE9D69EF0A89",
+				"AF76F6A7B23ECAD0C0C19E04",
+				"01E80944AD5D9FF4B2A3ED1D",
+				"4413155D95F05F1409668BF6",
+				"BDDE57D2288A649F1AD992D3");
+			name = "Sources";
+			sourceTree = "<group>";
+		};
+		12E908B8A1C3C07C115504F5 = {
+			isa = PBXGroup;
+			children = (
+				"047A67E9595038F3012ED23E");
+			name = "Sources [uic]";
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 = {
+			isa = PBXGroup;
+			children = (
+				"2C3297957D24C637213586E3",
+				"F21A5528FF8FF9BE97F72C23",
+				"3B2A8C7BE35B94F6244A4EDC",
+				"C795EE587F588CB6DB7CE95E");
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EF0942E79C014DCEC8976BC = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Preprocessors";
+			shellPath = "/bin/sh";
+			shellScript = "make -C '/Users/apple/Desktop/digit ios/build-digits_ios-iphoneos_clang_Qt_5_6_2_for_iOS-Debug' -f qt_preprocess.mak";
+			showEnvVarsInLog = "0";
+		};
+		F7E50F631C51CD5B5DC0BC43 = {
+			buildActionMask = 2147483647;
+			files = (
+				"1F76AE99ABED67668BE9476A",
+				"3A4A4C3E868749A0D352AA6E",
+				"B39DB58614E12195C226FC29",
+				"208F175BFB2E3F292139BA5A",
+				"EE613AF185CD414FF6523164",
+				"0D811313FEBC14EEA50E08C6",
+				"31CBAB39A171A3A80D6E633A",
+				"743EEB5DC439674121B4267F");
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Compile Sources";
+		};
+		FCC237CA5AD60B9BA4447615 = {
+			isa = PBXFileReference;
+			name = "Foundation.framework";
+			path = "/System/Library/Frameworks/Foundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F26454630C80841CBDCFE1CA = {
+			fileRef = "FCC237CA5AD60B9BA4447615";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2DB0163D71C4F45DF6E1388F = {
+			isa = PBXFileReference;
+			name = "qios";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/plugins/platforms/libqios$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		96D6C1A990E65168D0ECA83A = {
+			fileRef = "2DB0163D71C4F45DF6E1388F";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7EC00404ACD5AB0E97726B0E = {
+			isa = PBXFileReference;
+			name = "QuartzCore.framework";
+			path = "/System/Library/Frameworks/QuartzCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		B460F624007324313696BE86 = {
+			fileRef = "7EC00404ACD5AB0E97726B0E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3C44131FDCFEF4396B9EA2BA = {
+			isa = PBXFileReference;
+			name = "AudioToolbox.framework";
+			path = "/System/Library/Frameworks/AudioToolbox.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		4EB68D0C8182BCE33529C421 = {
+			fileRef = "3C44131FDCFEF4396B9EA2BA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4D765E1B1EA6C757220C63E7 = {
+			isa = PBXFileReference;
+			name = "CoreFoundation.framework";
+			path = "/System/Library/Frameworks/CoreFoundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F8B465CE34D8DF87AAE95913 = {
+			fileRef = "4D765E1B1EA6C757220C63E7";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		7D7B02101166B76FD2D4F8B4 = {
+			isa = PBXFileReference;
+			name = "CoreText.framework";
+			path = "/System/Library/Frameworks/CoreText.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		2B02D9DC58A01E45248DDBCE = {
+			fileRef = "7D7B02101166B76FD2D4F8B4";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6AE3EC31EE5BB1FCEE84137C = {
+			isa = PBXFileReference;
+			name = "CoreGraphics.framework";
+			path = "/System/Library/Frameworks/CoreGraphics.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		0CE02722F00CAD43741297B5 = {
+			fileRef = "6AE3EC31EE5BB1FCEE84137C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		205259EEEE2BADA5E64741E3 = {
+			isa = PBXFileReference;
+			name = "Security.framework";
+			path = "/System/Library/Frameworks/Security.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		15364689D2AB5A30E87A689F = {
+			fileRef = "205259EEEE2BADA5E64741E3";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FF5BDAB0076F3391B219EA52 = {
+			isa = PBXFileReference;
+			name = "SystemConfiguration.framework";
+			path = "/System/Library/Frameworks/SystemConfiguration.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		D4639595C3BCF2A39D88DF6E = {
+			fileRef = "FF5BDAB0076F3391B219EA52";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		5C70E4A51CB741CEB62955FC = {
+			isa = PBXFileReference;
+			name = "qavfcamera";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/plugins/mediaservice/libqavfcamera$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		0DF526009A735435DB30698E = {
+			fileRef = "5C70E4A51CB741CEB62955FC";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BEF9DFDA6822604126A7E233 = {
+			isa = PBXFileReference;
+			name = "CoreAudio.framework";
+			path = "/System/Library/Frameworks/CoreAudio.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		35A1A39F8EAB37889EB3D397 = {
+			fileRef = "BEF9DFDA6822604126A7E233";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		21F907AB8D19BD779147A085 = {
+			isa = PBXFileReference;
+			name = "AVFoundation.framework";
+			path = "/System/Library/Frameworks/AVFoundation.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		CCA737EE379CDB10CC9A0F23 = {
+			fileRef = "21F907AB8D19BD779147A085";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		547CCADBD1CC5050167EF948 = {
+			isa = PBXFileReference;
+			name = "CoreMedia.framework";
+			path = "/System/Library/Frameworks/CoreMedia.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		B78304F135DEF1F7A68393A6 = {
+			fileRef = "547CCADBD1CC5050167EF948";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F923F38E989CF0F61A164DD8 = {
+			isa = PBXFileReference;
+			name = "CoreVideo.framework";
+			path = "/System/Library/Frameworks/CoreVideo.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		6602E41D28CF886E694AD752 = {
+			fileRef = "F923F38E989CF0F61A164DD8";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		71CDE002C1425D3F73122309 = {
+			isa = PBXFileReference;
+			name = "qavfmediaplayer";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/plugins/mediaservice/libqavfmediaplayer$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4430D836CA26DD05368C8490 = {
+			fileRef = "71CDE002C1425D3F73122309";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		54DE815FD8D70352F79CB0F2 = {
+			isa = PBXFileReference;
+			name = "Qt5MultimediaWidgets";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/lib/libQt5MultimediaWidgets$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		885E6105B5357D937FE4476F = {
+			fileRef = "54DE815FD8D70352F79CB0F2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		02EAD8510A10E858ADE8DB04 = {
+			isa = PBXFileReference;
+			name = "Qt5OpenGL";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/lib/libQt5OpenGL$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		CB00DA967B6E1E548279E61E = {
+			fileRef = "02EAD8510A10E858ADE8DB04";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		BD8FD881FF33CE0496A17EB7 = {
+			isa = PBXFileReference;
+			name = "Qt5Widgets";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/lib/libQt5Widgets$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		64B4A7DB228AA25A56BED620 = {
+			fileRef = "BD8FD881FF33CE0496A17EB7";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00ACC304DCFEB13D53957D9C = {
+			isa = PBXFileReference;
+			name = "qtmedia_audioengine";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/plugins/mediaservice/libqtmedia_audioengine$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		974AA8EBB2424F2609C85D60 = {
+			fileRef = "00ACC304DCFEB13D53957D9C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6B9513A9C1138D9C53E3A830 = {
+			isa = PBXFileReference;
+			name = "qtaudio_coreaudio";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/plugins/audio/libqtaudio_coreaudio$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		544FA4D63EA9392859E4C49D = {
+			fileRef = "6B9513A9C1138D9C53E3A830";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D5233D9FF1E1EA3AC3DD9F82 = {
+			isa = PBXFileReference;
+			name = "qtmultimedia_m3u";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/plugins/playlistformats/libqtmultimedia_m3u$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		D3A8DE7C940E1A1AFBF22B6E = {
+			fileRef = "D5233D9FF1E1EA3AC3DD9F82";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		EBDBBB92EAF734919E663C31 = {
+			isa = PBXFileReference;
+			name = "Qt5Multimedia";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/lib/libQt5Multimedia$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		BF7700BF710C0A421AE4116F = {
+			fileRef = "EBDBBB92EAF734919E663C31";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6B961595D90C37D37F989C7C = {
+			isa = PBXFileReference;
+			name = "qdds";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/plugins/imageformats/libqdds$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		BCC7FC401CEC18CA82EA362B = {
+			fileRef = "6B961595D90C37D37F989C7C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		ECD2BE17A4EE204789A7556C = {
+			isa = PBXFileReference;
+			name = "qicns";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/plugins/imageformats/libqicns$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		6227FDFD73E5A0974BBBDD54 = {
+			fileRef = "ECD2BE17A4EE204789A7556C";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		249D2BEF5E0C8E79141C92BC = {
+			isa = PBXFileReference;
+			name = "qico";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/plugins/imageformats/libqico$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		FA55C2073C31D0EAB40A566D = {
+			fileRef = "249D2BEF5E0C8E79141C92BC";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3CE275611FAD9CBF302E8049 = {
+			isa = PBXFileReference;
+			name = "qmacjp2";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/plugins/imageformats/libqmacjp2$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		A3505AFD06EBCE4A76B8F9E1 = {
+			fileRef = "3CE275611FAD9CBF302E8049";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3A8EF9C62A8D4790CBB89CEA = {
+			isa = PBXFileReference;
+			name = "ImageIO.framework";
+			path = "/System/Library/Frameworks/ImageIO.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		61EEC397DC8556BF8C4E36A7 = {
+			fileRef = "3A8EF9C62A8D4790CBB89CEA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3AE8CF2CCD8A065419A1A503 = {
+			isa = PBXFileReference;
+			name = "Qt5PlatformSupport";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/lib/libQt5PlatformSupport$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		E8E2B04C68F203913F70C5DB = {
+			fileRef = "3AE8CF2CCD8A065419A1A503";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4334BD903CB9A218687BCAE6 = {
+			isa = PBXFileReference;
+			name = "Qt5DBus";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/lib/libQt5DBus$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		E58135249A7BFA7E5B0C4517 = {
+			fileRef = "4334BD903CB9A218687BCAE6";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		10A43E5E604E76B1F3A4B198 = {
+			isa = PBXFileReference;
+			name = "qtfreetype";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/lib/libqtfreetype$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		ABC308BABC754195BA5B8F5B = {
+			fileRef = "10A43E5E604E76B1F3A4B198";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4C2E8160711398717BD5CF2 = {
+			isa = PBXFileReference;
+			name = "qtga";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/plugins/imageformats/libqtga$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		8C26B2D44F3E966724DF8747 = {
+			fileRef = "D4C2E8160711398717BD5CF2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		26C0D03245C48E954AFFADE2 = {
+			isa = PBXFileReference;
+			name = "qtiff";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/plugins/imageformats/libqtiff$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		54C8FD13C64EF6382537765D = {
+			fileRef = "26C0D03245C48E954AFFADE2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		FDDF81A2715C10130908E304 = {
+			isa = PBXFileReference;
+			name = "qwbmp";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/plugins/imageformats/libqwbmp$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		667F1673D8D525A6A03F10AB = {
+			fileRef = "FDDF81A2715C10130908E304";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4CBBEB8BEF701C0E5699DD7F = {
+			isa = PBXFileReference;
+			name = "qwebp";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/plugins/imageformats/libqwebp$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		7983B27DE3D5D5705E84DA70 = {
+			fileRef = "4CBBEB8BEF701C0E5699DD7F";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		6424BA5A7F60456F495E643A = {
+			isa = PBXFileReference;
+			name = "Qt5Gui";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/lib/libQt5Gui$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		B4FEA3A559C9FC191F069DA0 = {
+			fileRef = "6424BA5A7F60456F495E643A";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2169E751F3A93143283CDFBC = {
+			isa = PBXFileReference;
+			name = "qtharfbuzzng";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/lib/libqtharfbuzzng$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4838EFB0FE47F0F8698ACBE7 = {
+			fileRef = "2169E751F3A93143283CDFBC";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4692FF6DD51F0E34B156399F = {
+			isa = PBXFileReference;
+			name = "qgenericbearer";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/plugins/bearer/libqgenericbearer$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F0BF9752A806A2BEC32FADC1 = {
+			fileRef = "4692FF6DD51F0E34B156399F";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A3C3406BFE25D8DD86F2FD4F = {
+			isa = PBXFileReference;
+			name = "Qt5Network";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/lib/libQt5Network$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		E1779079E1C9DB209B193632 = {
+			fileRef = "A3C3406BFE25D8DD86F2FD4F";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		59EB417F789D06E2702F3C31 = {
+			isa = PBXFileReference;
+			name = "Qt5Core";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/lib/libQt5Core$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		BB9FA13C8BBAF71B1D95AD53 = {
+			fileRef = "59EB417F789D06E2702F3C31";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		E234EEB006B95C86607FD35F = {
+			isa = PBXFileReference;
+			name = "qtpcre";
+			path = "/Users/apple/Qt5.6.2/5.6/ios/lib/libqtpcre$(QT_LIBRARY_SUFFIX).a";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		FDF90ABA9586A7E5544BCF2A = {
+			fileRef = "E234EEB006B95C86607FD35F";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AF39DD055C3EF8226FBE929D = {
+			children = (
+				"FCC237CA5AD60B9BA4447615",
+				"2DB0163D71C4F45DF6E1388F",
+				"7EC00404ACD5AB0E97726B0E",
+				"3C44131FDCFEF4396B9EA2BA",
+				"4D765E1B1EA6C757220C63E7",
+				"7D7B02101166B76FD2D4F8B4",
+				"6AE3EC31EE5BB1FCEE84137C",
+				"205259EEEE2BADA5E64741E3",
+				"FF5BDAB0076F3391B219EA52",
+				"5C70E4A51CB741CEB62955FC",
+				"BEF9DFDA6822604126A7E233",
+				"21F907AB8D19BD779147A085",
+				"547CCADBD1CC5050167EF948",
+				"F923F38E989CF0F61A164DD8",
+				"71CDE002C1425D3F73122309",
+				"54DE815FD8D70352F79CB0F2",
+				"02EAD8510A10E858ADE8DB04",
+				"BD8FD881FF33CE0496A17EB7",
+				"00ACC304DCFEB13D53957D9C",
+				"6B9513A9C1138D9C53E3A830",
+				"D5233D9FF1E1EA3AC3DD9F82",
+				"EBDBBB92EAF734919E663C31",
+				"6B961595D90C37D37F989C7C",
+				"ECD2BE17A4EE204789A7556C",
+				"249D2BEF5E0C8E79141C92BC",
+				"3CE275611FAD9CBF302E8049",
+				"3A8EF9C62A8D4790CBB89CEA",
+				"3AE8CF2CCD8A065419A1A503",
+				"4334BD903CB9A218687BCAE6",
+				"10A43E5E604E76B1F3A4B198",
+				"D4C2E8160711398717BD5CF2",
+				"26C0D03245C48E954AFFADE2",
+				"FDDF81A2715C10130908E304",
+				"4CBBEB8BEF701C0E5699DD7F",
+				"6424BA5A7F60456F495E643A",
+				"2169E751F3A93143283CDFBC",
+				"4692FF6DD51F0E34B156399F",
+				"A3C3406BFE25D8DD86F2FD4F",
+				"59EB417F789D06E2702F3C31",
+				"E234EEB006B95C86607FD35F");
+			isa = PBXGroup;
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		D1C883685E82D5676953459A = {
+			buildActionMask = 2147483647;
+			files = (
+				"F26454630C80841CBDCFE1CA",
+				"96D6C1A990E65168D0ECA83A",
+				"B460F624007324313696BE86",
+				"4EB68D0C8182BCE33529C421",
+				"F8B465CE34D8DF87AAE95913",
+				"2B02D9DC58A01E45248DDBCE",
+				"0CE02722F00CAD43741297B5",
+				"15364689D2AB5A30E87A689F",
+				"D4639595C3BCF2A39D88DF6E",
+				"0DF526009A735435DB30698E",
+				"35A1A39F8EAB37889EB3D397",
+				"CCA737EE379CDB10CC9A0F23",
+				"B78304F135DEF1F7A68393A6",
+				"6602E41D28CF886E694AD752",
+				"4430D836CA26DD05368C8490",
+				"885E6105B5357D937FE4476F",
+				"CB00DA967B6E1E548279E61E",
+				"64B4A7DB228AA25A56BED620",
+				"974AA8EBB2424F2609C85D60",
+				"544FA4D63EA9392859E4C49D",
+				"D3A8DE7C940E1A1AFBF22B6E",
+				"BF7700BF710C0A421AE4116F",
+				"BCC7FC401CEC18CA82EA362B",
+				"6227FDFD73E5A0974BBBDD54",
+				"FA55C2073C31D0EAB40A566D",
+				"A3505AFD06EBCE4A76B8F9E1",
+				"61EEC397DC8556BF8C4E36A7",
+				"E8E2B04C68F203913F70C5DB",
+				"E58135249A7BFA7E5B0C4517",
+				"ABC308BABC754195BA5B8F5B",
+				"8C26B2D44F3E966724DF8747",
+				"54C8FD13C64EF6382537765D",
+				"667F1673D8D525A6A03F10AB",
+				"7983B27DE3D5D5705E84DA70",
+				"B4FEA3A559C9FC191F069DA0",
+				"4838EFB0FE47F0F8698ACBE7",
+				"F0BF9752A806A2BEC32FADC1",
+				"E1779079E1C9DB209B193632",
+				"BB9FA13C8BBAF71B1D95AD53",
+				"FDF90ABA9586A7E5544BCF2A");
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Link Binary With Libraries";
+		};
+		6A781A3801DDDB75594778FB = {
+			isa = PBXFileReference;
+			path = "/Users/apple/Desktop/digit ios/build-digits_ios-iphoneos_clang_Qt_5_6_2_for_iOS-Debug/digits_ios.xcodeproj/Default-568h@2x.png";
+			name = "Default-568h@2x.png";
+			sourceTree = "<absolute>";
+		};
+		E81308DB57CC1178DE53483D = {
+			fileRef = "6A781A3801DDDB75594778FB";
+			isa = PBXBuildFile;
+		};
+		0F1E641A8033B98B0EEF7854 = {
+			isa = PBXFileReference;
+			path = "/Users/apple/Desktop/digit ios/build-digits_ios-iphoneos_clang_Qt_5_6_2_for_iOS-Debug/digits_ios.xcodeproj/LaunchScreen.xib";
+			name = "LaunchScreen.xib";
+			sourceTree = "<absolute>";
+		};
+		B478BBA758A27CEC17687049 = {
+			fileRef = "0F1E641A8033B98B0EEF7854";
+			isa = PBXBuildFile;
+		};
+		858FCAB0EB1F29CF8B07677C = {
+			children = (
+				"6A781A3801DDDB75594778FB",
+				"0F1E641A8033B98B0EEF7854");
+			isa = PBXGroup;
+			name = "Bundle Data";
+			sourceTree = "<group>";
+		};
+		30414803F31797EB689AE508 = {
+			buildActionMask = 2147483647;
+			files = (
+				"E81308DB57CC1178DE53483D",
+				"B478BBA758A27CEC17687049");
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Copy Bundle Resources";
+		};
+		9C512BB41B08473952EF9ED8 = {
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = "wrapper.application";
+			path = "digits_ios.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE0A091FDBFB3E9C31B7A1BD = {
+			children = (
+				"9C512BB41B08473952EF9ED8");
+			isa = PBXGroup;
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		E8C543AB96796ECAA2E65C57 = {
+			children = (
+				"2EB56BE3C2D93CDAB0C52E67",
+				"25B08E2869634E9BCBA333A2",
+				"74B182DB50CB5611B5C1C297",
+				"87DF60DE337FB58864343E39",
+				"12E908B8A1C3C07C115504F5",
+				"AF39DD055C3EF8226FBE929D",
+				"858FCAB0EB1F29CF8B07677C",
+				"FE0A091FDBFB3E9C31B7A1BD");
+			isa = PBXGroup;
+			name = "digits_ios";
+			sourceTree = "<group>";
+		};
+		06AB0807F2AAD1664CCE0303 = {
+			buildPhases = (
+				"5E618435888B9D49F8540165",
+				"7EF0942E79C014DCEC8976BC");
+			dependencies = (
+				);
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXAggregateTarget;
+			buildRules = (
+);
+			productName = "Qt Preprocess";
+			name = "Qt Preprocess";
+		};
+		1672F870544D25022D0FEF93 = {
+			isa = PBXTargetDependency;
+			target = "06AB0807F2AAD1664CCE0303";
+		};
+		E68A54F1E2FE087757C71EA8 = {
+			buildPhases = (
+				"F7E50F631C51CD5B5DC0BC43",
+				"D1C883685E82D5676953459A",
+				"30414803F31797EB689AE508");
+			dependencies = (
+				"1672F870544D25022D0FEF93");
+			productReference = "9C512BB41B08473952EF9ED8";
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXNativeTarget;
+			buildRules = (
+);
+			productType = "com.apple.product-type.application";
+			name = "digits_ios";
+			productName = "digits_ios";
+		};
+		3AA6C32AC930069E80220CF1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "armv7 arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_NAME = "digits_ios";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QT_LIBRARY_SUFFIX = "_debug";
+				"QT_LIBRARY_SUFFIX[sdk=iphonesimulator*]" = "_iphonesimulator$(QT_LIBRARY_SUFFIX)";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/apple/Desktop/digit ios/build-digits_ios-iphoneos_clang_Qt_5_6_2_for_iOS-Debug";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "6.0";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"../digits_ios",
+					".",
+					"/Users/apple/Qt5.6.2/5.6/ios/mkspecs/macx-ios-clang/ios",
+					"../../../Qt5.6.2/5.6/ios/include",
+					"../../../Qt5.6.2/5.6/ios/include/QtMultimediaWidgets",
+					"../../../Qt5.6.2/5.6/ios/include/QtWidgets",
+					"../../../Qt5.6.2/5.6/ios/include/QtMultimedia",
+					"../../../Qt5.6.2/5.6/ios/include/QtGui",
+					"../../../Qt5.6.2/5.6/ios/include/QtNetwork",
+					"../../../Qt5.6.2/5.6/ios/include/QtCore",
+					".",
+					".",
+					"../../../Qt5.6.2/5.6/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/System/Library/Frameworks/",
+					"/Users/apple/Qt5.6.2/5.6/ios/plugins/platforms",
+					"/Users/apple/Qt5.6.2/5.6/ios/lib",
+					"/Users/apple/Qt5.7.0/5.7/ios/lib",
+					"/Users/apple/Qt5.6.2/5.6/ios/plugins/mediaservice",
+					"/Users/apple/Qt5.6.2/5.6/ios/plugins/audio",
+					"/Users/apple/Qt5.6.2/5.6/ios/plugins/playlistformats",
+					"/Users/apple/Qt5.6.2/5.6/ios/plugins/imageformats",
+					"/Users/apple/Qt5.6.2/5.6/ios/plugins/bearer");
+				FRAMEWORK_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-g",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wno-deprecated-implementations",
+					"-Wprotocol",
+					"-Wno-selector",
+					"-Wno-strict-selector-match",
+					"-Wno-undeclared-selector",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DQT_QML_DEBUG",
+					"-DQT_MULTIMEDIAWIDGETS_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-fvisibility-inlines-hidden",
+					"-Wno-non-virtual-dtor",
+					"-Wno-overloaded-virtual",
+					"-Wno-exit-time-destructors",
+					"-g",
+					"-std=gnu++11",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wno-deprecated-implementations",
+					"-Wprotocol",
+					"-Wno-selector",
+					"-Wno-strict-selector-match",
+					"-Wno-undeclared-selector",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DQT_QML_DEBUG",
+					"-DQT_MULTIMEDIAWIDGETS_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-stdlib=libc++",
+						"-u",
+						"_qt_registerPlatformPlugin",
+						"-Wl,-e,_qt_main_wrapper",
+						"-framework",
+						"UIKit",
+						"-L/Users/apple/Qt5.6.2/5.6/ios/plugins/platforms",
+						"-framework",
+						"AssetsLibrary",
+						"-L/Users/apple/Qt5.6.2/5.6/ios/lib",
+						"-framework",
+						"MobileCoreServices",
+						"-framework",
+						"OpenGLES",
+						"-L/Users/apple/Qt5.7.0/5.7/ios/lib",
+						"-L/Users/apple/Qt5.6.2/5.6/ios/plugins/mediaservice",
+						"-L/Users/apple/Qt5.6.2/5.6/ios/plugins/audio",
+						"-L/Users/apple/Qt5.6.2/5.6/ios/plugins/playlistformats",
+						"-L/Users/apple/Qt5.6.2/5.6/ios/plugins/imageformats",
+						"-L/Users/apple/Qt5.6.2/5.6/ios/plugins/bearer",
+						"-lz",
+						"-lm");
+				ARCHS = "armv7 arm64 i386 x86_64";
+			};
+			name = "Debug";
+		};
+		77418F46922677BB04ED38DD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "armv7 arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_NAME = "digits_ios";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QT_LIBRARY_SUFFIX = "_debug";
+				"QT_LIBRARY_SUFFIX[sdk=iphonesimulator*]" = "_iphonesimulator$(QT_LIBRARY_SUFFIX)";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "digits_ios";
+			};
+			name = "Debug";
+		};
+		339EE1B2CC4FC24589A0EA95 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "armv7 arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				COPY_PHASE_STRIP = "YES";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "digits_ios";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QT_LIBRARY_SUFFIX = "";
+				"QT_LIBRARY_SUFFIX[sdk=iphonesimulator*]" = "_iphonesimulator$(QT_LIBRARY_SUFFIX)";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/apple/Desktop/digit ios/build-digits_ios-iphoneos_clang_Qt_5_6_2_for_iOS-Debug";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "6.0";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"../digits_ios",
+					".",
+					"/Users/apple/Qt5.6.2/5.6/ios/mkspecs/macx-ios-clang/ios",
+					"../../../Qt5.6.2/5.6/ios/include",
+					"../../../Qt5.6.2/5.6/ios/include/QtMultimediaWidgets",
+					"../../../Qt5.6.2/5.6/ios/include/QtWidgets",
+					"../../../Qt5.6.2/5.6/ios/include/QtMultimedia",
+					"../../../Qt5.6.2/5.6/ios/include/QtGui",
+					"../../../Qt5.6.2/5.6/ios/include/QtNetwork",
+					"../../../Qt5.6.2/5.6/ios/include/QtCore",
+					".",
+					".",
+					"../../../Qt5.6.2/5.6/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/System/Library/Frameworks/",
+					"/Users/apple/Qt5.6.2/5.6/ios/plugins/platforms",
+					"/Users/apple/Qt5.6.2/5.6/ios/lib",
+					"/Users/apple/Qt5.7.0/5.7/ios/lib",
+					"/Users/apple/Qt5.6.2/5.6/ios/plugins/mediaservice",
+					"/Users/apple/Qt5.6.2/5.6/ios/plugins/audio",
+					"/Users/apple/Qt5.6.2/5.6/ios/plugins/playlistformats",
+					"/Users/apple/Qt5.6.2/5.6/ios/plugins/imageformats",
+					"/Users/apple/Qt5.6.2/5.6/ios/plugins/bearer");
+				FRAMEWORK_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-g",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wno-deprecated-implementations",
+					"-Wprotocol",
+					"-Wno-selector",
+					"-Wno-strict-selector-match",
+					"-Wno-undeclared-selector",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DQT_QML_DEBUG",
+					"-DQT_MULTIMEDIAWIDGETS_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-fvisibility-inlines-hidden",
+					"-Wno-non-virtual-dtor",
+					"-Wno-overloaded-virtual",
+					"-Wno-exit-time-destructors",
+					"-g",
+					"-std=gnu++11",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wno-deprecated-implementations",
+					"-Wprotocol",
+					"-Wno-selector",
+					"-Wno-strict-selector-match",
+					"-Wno-undeclared-selector",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DQT_QML_DEBUG",
+					"-DQT_MULTIMEDIAWIDGETS_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-stdlib=libc++",
+						"-u",
+						"_qt_registerPlatformPlugin",
+						"-Wl,-e,_qt_main_wrapper",
+						"-framework",
+						"UIKit",
+						"-L/Users/apple/Qt5.6.2/5.6/ios/plugins/platforms",
+						"-framework",
+						"AssetsLibrary",
+						"-L/Users/apple/Qt5.6.2/5.6/ios/lib",
+						"-framework",
+						"MobileCoreServices",
+						"-framework",
+						"OpenGLES",
+						"-L/Users/apple/Qt5.7.0/5.7/ios/lib",
+						"-L/Users/apple/Qt5.6.2/5.6/ios/plugins/mediaservice",
+						"-L/Users/apple/Qt5.6.2/5.6/ios/plugins/audio",
+						"-L/Users/apple/Qt5.6.2/5.6/ios/plugins/playlistformats",
+						"-L/Users/apple/Qt5.6.2/5.6/ios/plugins/imageformats",
+						"-L/Users/apple/Qt5.6.2/5.6/ios/plugins/bearer",
+						"-lz",
+						"-lm");
+				ARCHS = "armv7 arm64 i386 x86_64";
+			};
+			name = "Release";
+		};
+		6666AA5E688052234F6758D8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "armv7 arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				COPY_PHASE_STRIP = "YES";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "digits_ios";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk";
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform";
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform";
+				QT_LIBRARY_SUFFIX = "";
+				"QT_LIBRARY_SUFFIX[sdk=iphonesimulator*]" = "_iphonesimulator$(QT_LIBRARY_SUFFIX)";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "digits_ios";
+			};
+			name = "Release";
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"3AA6C32AC930069E80220CF1",
+				"339EE1B2CC4FC24589A0EA95");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+		6CC3B5D2136C7CD6A5CF5A59 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"77418F46922677BB04ED38DD",
+				"6666AA5E688052234F6758D8");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+		6DB9C3763D02B1415CD9D565 = {
+			hasScannedForEncodings = 1;
+			compatibilityVersion = "Xcode 3.2";
+			isa = PBXProject;
+			mainGroup = "E8C543AB96796ECAA2E65C57";
+			productRefGroup = "FE0A091FDBFB3E9C31B7A1BD";
+			buildConfigurationList = "DAC4C1AA5EDEA1C85E9CA5E6";
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"E68A54F1E2FE087757C71EA8",
+				"06AB0807F2AAD1664CCE0303");
+			attributes = {
+				TargetAttributes = {
+				};
+			};
+		};
+	};
+	rootObject = "6DB9C3763D02B1415CD9D565";
+}

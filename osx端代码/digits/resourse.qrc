@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/re">
+        <file>scan3.gif</file>
+        <file>blackboard.gif</file>
+    </qresource>
+</RCC>
