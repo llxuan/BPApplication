@@ -1,3 +1,4 @@
+
 # Handwritten Numeral Recognition System 
 ## Introduction
 This project contains three part, one is Android application, one is ios application, the other is application of osx. 
@@ -11,6 +12,7 @@ The design of UI picture is as follows:
 Android:
 
 ![Android UI](https://github.com/llxuan/Handwritten-Numeral-Recognition-System/blob/master/picture/pic1.png)
+
 ios/osx：
 
 ![ios UI](https://github.com/llxuan/Handwritten-Numeral-Recognition-System/blob/master/picture/pic2.png)
