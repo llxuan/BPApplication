@@ -18,7 +18,7 @@ ios/osx：
 ![ios UI](https://github.com/llxuan/Handwritten-Numeral-Recognition-System/blob/master/picture/pic2.png)
 ![osx UI](https://github.com/llxuan/Handwritten-Numeral-Recognition-System/blob/master/picture/pic3.png)
 
-The main function of this project is to recognize whatever digit you input. There are two different methods to input, you can draw digit in the white board directly, besides, you can also just put in the picture that contains a digit. But we didn't deal with the picture that draws a series of digits. After the input, the screen will show you a dialog to tell the answer. Of course, we can't gurantee the answer provided is always correct, nevertheless, the overall correct rate is over 95%, which is satisfing.
+The main function of this project is to recognize what digit you input. There are two different methods to input, you can draw digit in the white board directly, besides, you can also just put in the picture that contains a digit. But we didn't deal with the picture that draws a series of digits. After the input, the screen will show you a dialog to tell the answer. Of course, we can't gurantee the answer provided is always correct, nevertheless, the overall correct rate is over 95%, which is satisfing.
 
 ## Implementation
 ### Training Data
