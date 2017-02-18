@@ -35,4 +35,3 @@ Momentum lets the learning process change the study rate value effectively and  
 In this way, the algorithm can be modified along the error performance surface by changing the learning rate. So that, the convergence of training output can be accelerated.
 
 And they both have a good performance.
-![performance](https://github.com/llxuan/Handwritten-Numeral-Recognition-System/blob/master/picture/pic4.png)
